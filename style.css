@@ -289,7 +289,7 @@ nav .right .profile img{
 
 @media (max-width: 1000px){
     nav .left{
-        width: 550px;
+        width: 600px;
     }
     .cards{
         display: flex;
@@ -299,7 +299,7 @@ nav .right .profile img{
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1225px){
+@media screen and (min-width: 900px) and (max-width: 1400px){
     .sidebar{
         display: none;
     }
@@ -320,7 +320,7 @@ nav .right .profile img{
 
     }
     nav .left{
-        width: 590px;
+        width: 1000px;
     }
     nav .right{
         width: 300px;
