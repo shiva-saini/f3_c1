@@ -299,7 +299,7 @@ nav .right .profile img{
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1400px){
+@media screen and (min-width: 900px) and (max-width: 1200px){
     .sidebar{
         display: none;
     }
@@ -348,6 +348,14 @@ nav .right .profile img{
     }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        gap:50px;
+    }   
+}
 
 @media screen and (max-width: 400px){
     .sidebar{
