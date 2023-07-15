@@ -1,6 +1,10 @@
 let items = document.getElementById('items')
 items.innerHTML = "";
+
 let topDiv = document.getElementById('top');
+
+const currentUrl = window.location.href;
+
 function getMenu(){
     fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json')
     .then(res => {
@@ -68,36 +72,9 @@ function getMenu(){
 getMenu();
 
 function takeOrder() {
+    console.log( window.location.href )
     window.location.href = "http://localhost:5500/index1.html";
-    // fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json')
-    // .then(res => {
-    //     return res.json()
-    // })
-    // .then(data => {
-    //    let len = data.length;
-    //    items.innerHTML = "";
-    //    for(let i = 0;i<6;i++){
-    //       let rand = Math.floor(Math.random() * len);
-    //       let item  = document.createElement('div');
-    //       item.className = 'item';
-    //       item.innerHTML = `
-    //       <div class="image">
-    //           <img src=${data[rand].imgSrc} alt="">
-    //       </div>
-    //       <div class="desc">
-    //           <div class="lef">
-    //               <p>${data[rand].name}</p>
-    //               <p>$ ${data[rand].price} /-</p>
-    //           </div>
-    //           <div class="right">
-    //               <i class="fa-solid fa-plus"></i>
-    //           </div>
-             
-    //       </div> 
-    //       `
-    //       items.appendChild(item);
-    //    }
-    // })
+    
 }
 
 

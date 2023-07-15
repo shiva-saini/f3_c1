@@ -1,6 +1,12 @@
 let items = document.getElementById('items')
 items.innerHTML = "";
+
 let topDiv = document.getElementById('top');
+
+
+
+// Add an event listener to the page reload event
+
 
 function takeOrder() {
     // window.location.href = "http://localhost:5500/index1.html";
