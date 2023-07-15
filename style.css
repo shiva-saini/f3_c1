@@ -355,7 +355,7 @@ nav .right .profile img{
     }   
 }
 
-@media screen and (max-width: 400px){
+@media (max-width: 400px){
     .sidebar{
         display: none;
     }
