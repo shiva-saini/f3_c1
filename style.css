@@ -285,7 +285,7 @@ nav .right .profile img{
     }
 }
 
-@media (max-width: 1000px){
+@media screen and (min-width: 900px) and (max-width: 1000px){
     nav .left{
         width: 600px;
     }
