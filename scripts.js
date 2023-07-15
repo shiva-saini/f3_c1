@@ -2,9 +2,6 @@ let items = document.getElementById('items')
 items.innerHTML = "";
 
 let topDiv = document.getElementById('top');
-
-const currentUrl = window.location.href;
-
 function getMenu(){
     fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json')
     .then(res => {
@@ -72,8 +69,8 @@ function getMenu(){
 getMenu();
 
 function takeOrder() {
-    console.log( window.location.href )
-    window.location.href = "http://localhost:5500/index1.html";
+    // console.log( window.location.href )
+    window.location.href = "https://shiva-saini.github.io/f3_c1/index1.html";
     
 }
 
