@@ -68,7 +68,6 @@ ol li {
 nav{
     position: fixed;
     top:0;
-    /* border: 2px solid yellow; */
     display: flex;
     align-content: center;
     justify-content: center;
@@ -76,7 +75,6 @@ nav{
     height: 50px;
     background-color: #111315;
     z-index: 1000;
-    /* padding: 0 20px; */
     
 }
 
@@ -375,15 +373,9 @@ nav .right .profile img{
        align-content: center;
        justify-content: center;
        gap:10px;
-
     }
-    nav .left{
-        width: 600px;
-    }
-    nav .right{
-        width: 300px;
-    }
-
+   
+   
     nav .right .signup{
         /* width: 80px; */
         display: none;
@@ -406,4 +398,13 @@ nav .right .profile img{
         justify-content: space-evenly;
         gap:50px;
     }
+
+     nav .left{
+        width: 300px;
+    }
+
+    nav .right{
+        width: 50px;
+    }
+
 }
